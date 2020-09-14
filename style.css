@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+ul{
+    color: blue;
+}
+ol{
+    color: yellow;
+}
+h1{
+    font-size: 50px;
+}
