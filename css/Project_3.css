@@ -1,0 +1,88 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 980px;
+    margin: 0 auto;
+    min-width: 600px;
+}
+
+#header-img{
+    padding-left: 20px;
+    float: left;
+}
+
+#header-img:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+}
+
+.head{
+    
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dadada;
+    margin: 30px auto;
+}
+
+header nav ul{
+	list-style-type: none;
+	
+    padding-left: 230px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+header nav ul li{
+	display: inline-block;
+    margin-right: 50px;   
+}
+
+header nav ul li a{
+	color: rgb(100, 100, 100);
+	font-size: 18px;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #4ca7ce;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.p1{
+    display: table;
+    width: 40%;
+    float: left;  
+    padding-top: 30px; 
+    padding-right: 20px;
+    font-size: 21px;
+}
+
+#video{
+    width: 60%;
+    height: 400px;   
+}
+
+#bot_at_home{
+    padding-top: 20px;
+    border-top: 1px solid #dadada;
+}
+
+#about-company{
+    padding-top: 20px;
+    border-top: 1px solid #dadada;
+}
+
+#contacts{
+    padding-top: 20px;
+    border-top: 1px solid #dadada;
+    
+}
+
+.p2{
+    float: left;
+}
+
+#form{
+    margin-left: 400px;
+    padding-top: 15px;
+}

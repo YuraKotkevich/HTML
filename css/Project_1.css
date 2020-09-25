@@ -1,0 +1,40 @@
+body{
+	
+	width: 600px;
+	margin: 0 auto;
+	background-image: linear-gradient(to bottom, yellow, green);
+						
+}
+
+#title{
+	text-align: center;
+}
+
+#img-caption{
+	text-align: center;
+}
+
+ul{
+    list-style-type: square;
+   
+}
+
+
+#tribute-link{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background: linear-gradient(to right, yellow, green);
+	border:1px solid rgb(0, 0, 0);
+	height: 45px;
+	width:150px;
+	border-radius: 24px;
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	line-height: 44px;
+	margin: 30px auto;
+}
+
+#tribute-link:hover{
+	background: linear-gradient(to right, green, yellow);
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Summary</title>
+		<link rel="stylesheet" type="text/css" href="css/Project_2.css">
+	</head>
+<body>
+    <div id="main">
+        <h1 id="title">HTML student form</h1>
+        <p id="description">Fill in a short resume:</p>
+        
+            <form  id="survey-form" method="post" class="subform">
+                <p>
+                    <label for="name">What's your name?</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="email">Enter your mail:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>Experience of studying:
+                    <label>
+                        <input type="radio" name="skill" value="1">
+                        JavaScript
+                    </label>
+                    <label>
+                        <input type="radio" name="skill" value="2">
+                        HTML & CSS
+                    </label>
+                    <label>
+                        <input type="radio" name="skill" value="3">
+                        PHP
+                    </label>
+                </p>
+                <p>
+                    <label for="dropdown">What is your goal:</label>
+                    <select name="dropdown" id="dropdown">
+                        <option>I want to change my profession</option>
+                        <option>Improve skill</option>
+                        <option>As a hobby</option>
+                        <option>I want to be a freelancer</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments">Your wishes:</label>
+                    <textarea name="comments" cols="40" rows="5" id="comments">
+                    </textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+        
+    </div>    
+</body>
+</html>
