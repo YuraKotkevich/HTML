@@ -1,0 +1,82 @@
+body{
+    background-image:linear-gradient(to bottom, rgb(13, 178, 228), rgb(226, 156, 5));
+}
+
+article{
+    width: 800px;
+    margin: 30px auto;
+}
+#navbar{
+    margin-top: -30px;
+    width: 8%;
+   
+}
+
+#about_me{
+    padding-top: 60px;
+    padding-bottom: 110px;
+    border-bottom: 1px red solid;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.img1{
+    float: left;
+    padding-right: 40px;
+}
+
+#contact{
+    margin-top: 40px;
+    border-top: 1px red solid;
+}
+
+#features{
+    margin-top: 40px;
+}
+
+#features a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: white;
+}
+
+#instagram{
+    margin-left: 150px;
+    border-radius: 22px;
+    background: rgb(226, 156, 5);
+    padding: 12px;
+    border: 1px solid white; 
+}
+
+#instagram:hover{
+    background: white;
+    color: rgb(226, 156, 5);
+}
+
+#facebook{
+    border-radius: 22px;
+    background: rgb(96, 3, 218);
+    padding: 12px;
+    border: 1px solid white;
+}
+
+#facebook:hover{
+    background: white;
+    color: rgb(96, 3, 218);
+}
+
+#github{
+    
+    border-radius: 22px;
+    background: rgb(0, 0, 0);
+    padding: 12px;
+    border: 1px solid white;
+
+}
+
+#github:hover{
+    background: white;
+    color: black;
+}
